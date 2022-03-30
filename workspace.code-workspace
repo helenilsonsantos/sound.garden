@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../sound.garden"
+		},
+		{
+			"path": "../minha-rua"
+		},
+		{
+			"path": "../omma-js-master"
+		},
+		{
+			"path": "../site-omma"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sound.garden"
+	}
+}
