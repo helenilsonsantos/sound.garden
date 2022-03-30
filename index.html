@@ -54,6 +54,27 @@
             </div>
             <div class="container text-center">
                 <a href="eventos.html" class="btn btn-secondary">ver todos os eventos</a>
+            </div >
+            <div class="modal-container" id="modal-container">
+                <div id="modal">
+                    <form class="col-6">
+                        <div>
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" aria-describedby="nome">
+                        </div>
+                        <div>
+                            <label for="nome" class="form-label">E-mail</label>
+                            <input type="text" class="form-control" id="e-mail" aria-describedby="e-mail">
+                        </div>
+                        <div>
+                            <label for="nome" class="form-label">Quantidade de Ingresso</label>
+                            <input type="text" class="form-control" id="quantidade-ingresso" aria-describedby="ingresso">
+                        </div>
+                        <button type="submit" class="btn btn-primary">enviar</button>
+                        <button type="cancel" class="btn btn-danger">Cancelar</button>
+                    </form>
+                </div>    
+                    </div>
             </div>
         </section>
         <section class="full d-flex justify-content-center align-items-center"
@@ -105,5 +126,5 @@
         </div>
     </footer>
 </body>
-
+    <script src="./js/modal.js"></script>
 </html>
