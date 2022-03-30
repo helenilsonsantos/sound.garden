@@ -1,11 +1,13 @@
 const BASE_URL = 'https://xp41-soundgarden-api.herokuapp.com';
 const table = document.querySelector('tbody');
+const carregando = document.querySelector('#carregarFundo')
 const Options = {
     method :'GET',
     redirect :'follow',
 };
 
 const listEventos = async() => { 
+    carregando.style.display = 'Block'
     const request = await fetch (`${BASE_URL}/events`, Options)
     const conteudoResposta = await request.json();
     let htmlData = ''
@@ -25,6 +27,7 @@ const listEventos = async() => {
 
     }
     table.innerHTML = htmlData
+    carregando.style.display = 'none'
 };    
 
 listEventos()

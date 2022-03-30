@@ -7,4 +7,10 @@ for(link of links) {
     })
 }
 
+const btnFechar = document.querySelector('.btn.btn-danger')
+
+btnFechar.addEventListener('click',() => {
+    modalContainer.classList.remove('show')
+})
+
 
